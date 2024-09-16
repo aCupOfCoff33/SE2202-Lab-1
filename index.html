@@ -12,7 +12,8 @@
     />
   </head>
 
-  <body class="m-0">
+  <body class="m-0 flex flex-col min-h-screen">
+    <!-- Navbar -->
     <div>
       <div style="position: fixed; top: 0; left: 0; right: 0"></div>
       <nav
@@ -41,9 +42,9 @@
       </nav>
     </div>
 
-    <!-- Add padding to the main content to prevent overlap with the navbar -->
+    <!-- Main Content -->
     <div
-      class="bg-gray-800 min-h-screen flex flex-col items-center justify-center pt-16"
+      class="bg-gray-800 flex-grow flex flex-col items-center justify-center pt-16"
     >
       <h1 class="font-mono text-3xl text-center pt-6 italic text-white pb-2">
         Prof. Yimmin Yang's Website Constructed with Tailwind!
@@ -55,6 +56,7 @@
           >Aaryan Joharapurkar</a
         >
       </h2>
+
       <div class="flex justify-center items-center w-full ml-auto">
         <img
           class="object-cover h-64 w-64 rounded-md border-solid hover:border-dotted border-4 animate-spin_5s"
@@ -75,32 +77,23 @@
         <p class="mb-12">How's your day?</p>
         <p class="mb-4">Mine's going decently to be honest.</p>
         <p class="mb-4">2257 is hard.</p>
-      </div>
-
-      <!-- Contact Me part -->
-      <div>
-        <h1 class="font-mono text-3xl text-center pt-6 italic text-white pb-2">
-          Contact me!
-        </h1>
-        <div class="font-mono text-center text-white mt-6">
-          <p class="mb-4">
-            I'm flattered that you think I'm someone important to talk to!
-          </p>
-          <p class="mb-4">
-            My email is <a href="mailto:yimin.yang@uwo.ca">yimin.yang@uwo.ca</a>
-          </p>
-          <p class="mb-4">
-            My phone number is
-            <a href="tel:519-661-2111x87385">519-661-2111 x87385</a>
-          </p>
-          <p class="mb-4">
-            My LinkedIn is
-            <a href="https://www.linkedin.com/in/aaryanj/"
-              >https://www.linkedin.com/in/aaryanj/</a
-            >
-          </p>
-        </div>
+        <br />
+        <p class="mb-4">
+          Check out some of the things
+          <a
+            class="underline"
+            href="https://scholar.google.com/citations?user=fFP4b9kAAAAJ&hl=en"
+            >I have worked on!</a
+          >
+        </p>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer
+      class="bg-gray-900 text-white text-center text-xs p-3 w-full mt-auto"
+    >
+      &copy; 2024 Aaryan Joharapurkar (or actually Prof. Yimmin Yang. we can actually share credit, surely he won't mind)
+    </footer>
   </body>
 </html>
