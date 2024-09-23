@@ -1,0 +1,1 @@
+This Website is dedicated to Professor Yimmin Yang. Also known as one of the best professors at Western Univeristy. Coded in under 20 minutes for an assignment. Not at all Mobile Responsive and I look forward to making this private once I get my mark lol
